@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: #00ad79;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.role-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.roles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.role-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #004aad;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.role-card:hover {
+  background: #004aad;
+  color: white;
+  transform: scale(1.05);
+}
+footer {
+  background: #7000ad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
